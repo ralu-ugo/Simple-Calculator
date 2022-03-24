@@ -1,0 +1,49 @@
+*{
+  margin-left: 500;
+  padding: 0;
+  gap: 0;
+}
+
+button{
+  background-color: rgba(9, 17, 49, 0.5);
+  height: 100px;
+  width: 100px;
+  font-size: larger;
+  font-weight: 1000;
+  color: white;
+
+}
+
+.calc{
+  background-color: rgb(83, 83, 83);
+  width: 400px;
+  height: 607px;
+  border: 1px solid red;
+  
+}
+
+.buttons{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 1px;
+
+}
+
+input{
+  width: 400px;
+  height: 100px;
+  background-color: rgba(71, 92, 109, 0.616);
+  font-size: 2em;
+  text-align: right;
+  color: white;
+
+
+}
+
+.operator{
+  background-color: grey;
+}
+
+#c{
+  color: orangered;
+}
